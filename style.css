@@ -1,0 +1,620 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+nav {
+    height: 30px;
+    width: 100%;
+    padding: 34px 24px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+nav ul a li {
+    display: inline;
+    padding: 0px 24px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+nav ul a li:hover {
+    color: yellow;
+    transition: all ease 2.0s;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav a h1 {
+    margin-left: 150px;
+    color: yellow;  
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#section-one {
+    padding: 2% 5%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#section-one #intro {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#intro {
+    margin: 50px auto;
+}
+
+#intro h1 {
+    font-size: 70px;
+    padding: 25px 25px;
+}
+
+#intro p {
+    font-size: 26px;
+    color: yellow;
+}
+
+.genre img {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.genre img:hover {
+    transform: scale(0.9);
+    transition: all ease 1.0s;
+}
+
+#genre-container {
+    text-align: center;
+}
+
+.genre {
+    display: inline-block;
+    padding: 18px 18px;
+}
+
+.genre p {
+    color: whitesmoke;
+    padding: 12px;
+    font-size: 24px;
+}
+
+#section-two {
+    padding: 1% 1%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section-two #cont-share-heading {
+    text-align: center;
+    color: yellow;
+}
+
+#cont-share-heading {
+    margin: 20px auto;
+}
+
+#cont-share-heading h1 {
+    font-size: 60px;
+    padding: 25px 25px;
+}
+
+#cont-share-heading p {
+    font-size: 26px;
+    color: grey;
+}
+.cont-share img {
+    width: 400px;
+    height: 250px;
+}
+.cont-share {
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+}
+
+.cont-share h2 {
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 180px;
+    margin-left: 20px;
+}
+
+.cont-share p {
+    color: yellow;
+    font-size: 20px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 230px;
+    margin-left: 20px;
+}
+
+.cont-share:hover {
+    transform: translateY(-2%);
+    transition: all ease 1.0s;
+}
+
+#section-three {
+    padding: 1% 5%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sub-sect-img {
+    
+    width: 30%;
+    
+}
+
+.sub-sect-img img {
+    width: 500px;
+    height: 550px;
+    margin: 50px;
+    padding-left: 50px;
+
+}
+.sub-sect-img h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    position: absolute;
+    transform: translateY(150%);
+    background-color: transparent;
+}
+
+.sub-sect-desc-wrap {
+    width: 40%;
+    margin-left: 200px;
+}
+
+.sub-sect-desc {
+    padding: 20px;
+    width: 100%;
+}
+
+.sub-sect-desc h2 {
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.sub-sect-desc p {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.sub-sect-desc a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+}
+
+.sub-sect-desc a:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid yellow;
+    transition: all ease 0.5s;
+}
+
+.sub-sect-desc a .fa {
+    padding: 10px;
+}
+
+#section-four {
+    padding: 1% 3%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.sect-heading {
+    text-align: center;
+}
+
+.sect-heading h1 {
+    color: yellow;
+    font-size: 50px;
+}
+
+#subscript-div-wrap {
+    margin: 62px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscript-div {
+    background-color: #aaaaaa25;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.subscript-div h2 {
+    color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.subscript-div .p1 {
+    color: #aaaaaa;
+    position: absolute;
+    top: 40px;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.subscript-div h3 {
+    color: whitesmoke;
+    position: absolute;
+    top: 120px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+
+.subscript-div .p2 {
+    color: whitesmoke;
+    position: absolute;
+    top: 160px;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 18px;
+    color: #aaaaaa;
+}
+
+
+.subscript-div button {
+    background-color: rgb(221, 221, 31);
+    position: absolute;
+    top: 240px;
+    padding: 12px;
+    margin-left: 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.subscript-div button:hover {
+    background-color: yellow;
+}
+
+#section-five {
+    padding: 1% 3%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#section-five:hover {
+    animation-name: effect;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes effect {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+.sect-five-header {
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 40%;
+    background-color: transparent;
+}
+
+.sect-five-img {
+    width: 40%;
+    float: right;
+}
+
+.sect-five-header h1 {
+    color: yellow;
+    font-size: 50px;
+    background-color: transparent;
+    position: absolute;
+   transform: translateY(100%);
+}
+
+.sect-five-img img {
+    width: 900px;
+    height: 550px;
+    float: right;
+    margin-right: 80px;
+}
+
+#section-six {
+    padding: 1% 5%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.dir-inner {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 34px;
+    margin-bottom: 50px;
+}
+
+.dir-inner:last-of-type {
+    margin-right: 0;
+}
+
+
+.dir-inner ul {
+    list-style-type: none;
+}
+
+.dir-inner ul li {
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.dir-inner ul li:first-of-type {
+    color: #aaaaaa;
+}
+
+#dir-logo {
+    width: 20%;
+    float: left;   
+}
+
+#dir-logo a {
+    text-decoration: none;
+}
+
+.brandName {
+    color: yellow;
+    font-size: 48px;
+}
+
+#dir {
+    width: 50%;
+    vertical-align: top;
+    float: right;
+}
+
+#footer {
+    width: 100%;
+    height: 10%;
+    display: block;
+    padding: 1% 5%;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 18px;
+    visibility: visible;
+}
+
+.copyright-mobile {
+    color: whitesmoke;
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.social-logo {
+    display: inline;
+    margin-bottom: 50px;
+}
+
+.social-logo i {
+    width: 30px;
+    height: 30px;
+    margin-left: 28px;
+    margin-top: 10px;
+    color: yellow;
+    float: right;
+    margin-bottom: 30px;
+}
+
+nav .fa {
+    color: yellow;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul a li {
+        display: none   
+    }
+
+    nav a h1 {
+        margin-left: 5px; 
+    }
+
+    nav .fa {
+        display: inline;
+    }
+    #intro h1 {
+        font-size: 50px;
+        padding: 15px 15px;
+    }
+
+    #intro p {
+        padding: 15px 15px;
+    }
+
+    #section-one {
+        padding: 1% 0%;
+    }
+    
+    .genre img {
+        padding: 7px;
+        border-radius: 30px;
+        width: 100%;
+    }
+    
+    #genre-container {
+        text-align: none;
+        min-width: 100%;
+    }
+    
+    .genre {
+        padding: 0px 0px;
+    }
+    /* section two responsive */
+    
+    #section-two #cont-share-heading {
+        text-align: left;
+    }
+
+    #cont-share-heading h1 {
+        font-size: 40px;
+        padding: 15px 15px;
+    }
+    
+    #cont-share-heading p {
+        padding: 15px;
+    }
+    .cont-share img {
+        max-width: 98%;
+        margin-top: 15px;
+    }
+    .cont-share {
+        padding: 7px 7px;
+    } 
+    
+    #section-three {
+        padding:0;
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .sub-sect-img {
+        width: 100%; 
+    }
+    
+    .sub-sect-img img {
+        margin: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .sub-sect-img h1 {
+        padding: 12px;
+    }
+    
+    .sub-sect-desc-wrap {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #section-four {
+        padding: 0;
+    }
+    
+    .sect-heading {
+        text-align: left;
+        padding-left: 12px;
+    }
+    
+    #subscript-div-wrap {
+        width: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-top: 7%;
+        text-align: center;
+    }
+    
+    #section-five {
+        padding: 0;
+        display: inline;
+    }
+    
+    .sect-five-img {
+        width: 80%;
+        float: right;
+    }
+
+    .sect-five-header {
+        margin-left: 0px;
+        width: 20%;
+    }
+    
+    .sect-five-header h1 {
+        padding: 12px;
+        position: absolute;
+    }
+    
+    .sect-five-img img {
+        margin: 0;
+        width: 700px;
+    }
+    
+    .dir-inner {
+        display: block;
+    }
+    #dir-logo a h1 {
+        font-size: 35px;
+        position: absolute;
+    }
+
+    #footer {
+        display: block;
+    }
+    
+    .social-logo {
+        display: block;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+    
+}
